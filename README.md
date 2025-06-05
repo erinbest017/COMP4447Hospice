@@ -59,13 +59,18 @@ cd COMP4447Hospice
 
 ## Order of Operations
 
-1) Run COMP4447Hospice/Code/'mainCounty.ipynb'
+1) Run COMP4447Hospice/Code/NPI Info API 05252025.ipynb
+- pulls NPI Registry data to get provider counts and creates 'df.pkl'
+  
+3) Run COMP4447Hospice/Code/'mainCounty.ipynb'
 - pulls function from ACSDataImport.py
+- pulls data from 'df.pkl' (Hospice Provider Counts) and merges on ACS data
 - creates 'mergedTableCounty.pkl'
 - creates 'merged65andOver.pkl'
 
 2) Run COMP4447Hospice/Code/'hospiceEDA and Mapping by County.ipynb'
 - uses 'mergedTableCounty.pkl' to create EDA and Hospice Provider Dashboard
+- uses 'df_alzheimers.pkl' to merge to ACS data for visualization
 
 3) Run COMP4447Hospice/Code/hospiceMLCounty.ipynb
 - uses 'mergedTableCounty.pkl' for model development

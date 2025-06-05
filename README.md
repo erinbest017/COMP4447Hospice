@@ -53,7 +53,7 @@ command to run if program contains helper info
 Contributors names and contact info
 
 - Dagmar Velez | https://www.linkedin.com/in/dagmarvelez/
-- Erin Best    | 
+- Erin Best    | www.linkedin.com/in/erin-best-msds
 
 ## Version History
 

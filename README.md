@@ -57,7 +57,19 @@ git clone https://github.com/erinbest017/COMP4447Hospice.git
 cd COMP4447Hospice
 ```
 
-## Order of Operations (add here)
+## Order of Operations
+
+1) Run COMP4447Hospice/Code/'mainCounty.ipynb'
+- pulls function from ACSDataImport.py
+- creates 'mergedTableCounty.pkl'
+- creates 'merged65andOver.pkl'
+
+2) Run COMP4447Hospice/Code/'hospiceEDA and Mapping by County.ipynb'
+- uses 'mergedTableCounty.pkl' to create EDA and Hospice Provider Dashboard
+
+3) Run COMP4447Hospice/Code/hospiceMLCounty.ipynb
+- uses 'mergedTableCounty.pkl' for model development
+- uses 'merged65andOver.pkl' for Gaps in Hospice Care analysis
 
 ## Interactive Notebook
 

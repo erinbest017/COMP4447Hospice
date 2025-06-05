@@ -10,6 +10,20 @@ In addition to hospice provider count, our data includes key sociodemographic in
 - Age, education, income, poverty, marital status, and household composition
 - Alzheimer’s and Dementia prevalence
 
+## Data Sources
+American Community Survey (ACS)
+- On-going survey from United States Census Bureau 
+- Collects data on the social, economic, housing, and demographic characteristics of the U.S. population
+- Our focus includes household income, educational attainment, householder/marital/civilian status, poverty level, and age
+
+National Provider Identifier (NPI) Registry
+- Free, public directory
+- Contains active provider information based on the 10-digit unique NPI
+- We pulled information for active hospice organizations based in CO
+
+Other datasets include:
+- Alzheimer's rates, Colorado County Boundaries
+
 ## Getting Started
 
 ### Dependencies

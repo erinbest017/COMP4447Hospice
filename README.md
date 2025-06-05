@@ -29,6 +29,12 @@ Other datasets include:
 ### Dependencies
 
 * Prerequisites, libraries, OS version, etc., needed before installing program:
+
+## Python libraries:
+- requests
+- time
+- re
+- fuzzywuzzy
 - pandas
 - numpy
 - geopandas
@@ -55,12 +61,11 @@ Other datasets include:
 code blocks for commands
 ```
 
-## Help
+## Interactive Notebook
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+View the full exploratory notebook: (https://nbviewer.org/github/erinbest017/COMP4447Hospice/blob/main/Code/hospiceEDA%20and%20Mapping%20by%20County.ipynb).
+
+This includes data visualizations, EDA, and a county-level Plotly map of hospice-related metrics.
 
 ## Authors
 
@@ -70,7 +75,4 @@ Contributors names and contact info
 - Erin Best    | www.linkedin.com/in/erin-best-msds
 
 ## Version History
-
-
-## Acknowledgments
 

@@ -48,7 +48,6 @@ def convertLatLongToCensusTract(lat, long):
         print(f'Error {e} at lat = {lat}, long = {long}')
         return None
     
-################# WE MIGHT BE ABLE TO DELETE THE BIT BELOW
 ## Create zipcode column
 df['zip'] = df['zipPlusFour'].str[:5]
 

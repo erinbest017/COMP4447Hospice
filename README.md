@@ -59,7 +59,8 @@ cd COMP4447Hospice
 
 ## Order of Operations
 
-1) Download all files from Code Folder
+1) Download all files from the COMP4447Hospice/Code/ Folder
+   
 2) Run COMP4447Hospice/Code/NPI Info API 05252025.ipynb
 - pulls NPI Registry data to get provider counts and creates 'df.pkl'
   

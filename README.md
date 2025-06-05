@@ -15,7 +15,7 @@ This project explores disparities in hospice care access across Colorado using a
 
 Our goal is to visualize and better understand geographic gaps in end-of-life care services.
 
-## Data Sources
+## Data Sources (/Data)
 **American Community Survey (ACS)**
 - Source: U.S. Census Bureau  
 - Key features: Income, education, poverty level, age, and household composition
@@ -50,18 +50,11 @@ Our goal is to visualize and better understand geographic gaps in end-of-life ca
 - plotly
 - dash
 
-### Installing
-
-* How/where to download your program:
-* 
-* Any modifications needed to be made to files/folders:
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
+### Running the Code (/Code)
+Clone the repository: 
 ```
-code blocks for commands
+git clone https://github.com/erinbest017/COMP4447Hospice.git
+cd COMP4447Hospice
 ```
 
 ## Interactive Notebook
@@ -72,10 +65,11 @@ This includes data visualizations, EDA, and a county-level Plotly map of hospice
 
 ## Authors
 
-Contributors names and contact info
-
 - Dagmar Velez | https://www.linkedin.com/in/dagmarvelez/
 - Erin Best    | www.linkedin.com/in/erin-best-msds
 
 ## Version History
+- v1.0 - initial release (June 2025)
 
+## Acknowledgements
+Thanks to our University of Denver COMP 4447 - Data Science Tools I course professor, Rahim Rasool, and our classmates for guidance and feedback throughout this project.

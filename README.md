@@ -57,6 +57,8 @@ git clone https://github.com/erinbest017/COMP4447Hospice.git
 cd COMP4447Hospice
 ```
 
+## Order of Operations (add here)
+
 ## Interactive Notebook
 
 View the full exploratory notebook: (https://nbviewer.org/github/erinbest017/COMP4447Hospice/blob/main/Code/hospiceEDA%20and%20Mapping%20by%20County.ipynb).

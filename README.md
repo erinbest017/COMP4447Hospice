@@ -13,28 +13,28 @@ This project explores disparities in hospice care access across Colorado using a
 - Household and marital composition
 - Alzheimer’s and Dementia prevalence in adults aged 65+
 
+Our goal is to visualize and better understand geographic gaps in end-of-life care services.
+
 ## Data Sources
-American Community Survey (ACS)
-- On-going survey from United States Census Bureau 
-- Collects data on the social, economic, housing, and demographic characteristics of the U.S. population
-- Our focus includes household income, educational attainment, householder/marital/civilian status, poverty level, and age
+**American Community Survey (ACS)**
+- Source: U.S. Census Bureau  
+- Key features: Income, education, poverty level, age, and household composition
 
-National Provider Identifier (NPI) Registry
-- Free, public directory
-- Contains active provider information based on the 10-digit unique NPI
-- We pulled information for active hospice organizations based in CO
+**National Provider Identifier (NPI) Registry**
+- Public directory of active U.S. healthcare providers  
+- Filtered for active hospice providers in Colorado
 
-Other datasets include:
-- Alzheimer's rates, Colorado County Boundaries
+**Other datasets**
+- Alzheimer's and Dementia prevalence (65+) in Colorado by county
+- Colorado county boundary GeoJSON  
 
 ## Getting Started
 
 ### Dependencies
 
-* Prerequisites, libraries, OS version, etc., needed before installing program:
-
-## Python libraries:
+## Make sure to install the following Python libraries:
 - requests
+- shapely.geometry
 - time
 - re
 - fuzzywuzzy

@@ -15,7 +15,17 @@ In addition to hospice provider count, our data includes key sociodemographic in
 ### Dependencies
 
 * Prerequisites, libraries, OS version, etc., needed before installing program:
-
+- pandas
+- numpy
+- geopandas
+- matplotlib
+- seaborn
+- pgeocode
+- censusgeocode
+- Point
+- random
+- plotly
+- dash
 
 ### Installing
 

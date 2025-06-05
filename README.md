@@ -1,8 +1,8 @@
 # Mapping Hospice Care Access in Colorado: A County-Level Analysis Using Sociodemographic Indicators and Alzheimer’s Prevalence
 
 Research Questions:
-How do community characteristics, as captured by the American Community Survey (ACS) data, correlate with the presence and density of hospice providers across the state of Colorado?
-Can we identify gaps in hospice care access across Colorado by analyzing Alzheimer's disease prevalence and county-level demographic indicators?
+- How do community characteristics, as captured by the American Community Survey (ACS) data, correlate with the presence and density of hospice providers across the state of Colorado?
+- Can we identify gaps in hospice care access across Colorado by analyzing Alzheimer's disease prevalence and county-level demographic indicators?
 
 ## Description
 

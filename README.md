@@ -60,22 +60,17 @@ cd COMP4447Hospice
 ## Order of Operations
 
 1) Download all files from the COMP4447Hospice/Code/ Folder
-   
-2) Download the following files from the COMP4447Hospice/Data/ Folder
-- CMS_hospice_organizations_CO.csv
-- CO County Alzheimers Rates.txt
-- CO_County_Alzheimers_Rates.csv
   
-3) Run COMP4447Hospice/Code/NPI Info API.ipynb
+2) Run COMP4447Hospice/Code/NPI Info API.ipynb
 - pulls NPI Registry data to get provider counts and creates 'df_zip.pkl'
   
-4) Run COMP4447Hospice/Code/'mainCounty.ipynb'
+4) Run COMP4447Hospice/Code/mainCounty.ipynb
 - pulls function from ACSDataImport.py
 - pulls data from 'df_zip.pkl' (Hospice Provider Counts) and merges on ACS data
 - creates 'mergedTableCounty.pkl'
 - creates 'merged65andOver.pkl'
 
-5) Run COMP4447Hospice/Code/'hospiceEDA and Mapping by County.ipynb'
+5) Run COMP4447Hospice/Code/hospiceEDA and Mapping by County.ipynb
 - uses 'mergedTableCounty.pkl' to create EDA and Hospice Provider Dashboard
 - uses 'df_alzheimers.pkl' to merge to ACS data for visualization
 
@@ -87,7 +82,7 @@ cd COMP4447Hospice
 
 View the full exploratory notebook: (https://nbviewer.org/github/erinbest017/COMP4447Hospice/blob/main/Code/hospiceEDA%20and%20Mapping%20by%20County.ipynb).
 
-This includes data visualizations, EDA, and a county-level Plotly map of hospice-related metrics.
+This includes data visualizations, EDA, and a county-level dashboard (using Plotly Dash) of hospice-related metrics.
 
 ## Authors
 

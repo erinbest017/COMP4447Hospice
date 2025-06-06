@@ -64,6 +64,7 @@ cd COMP4447Hospice
 2) Download the following files from the COMP4447Hospice/Data/ Folder
 - CMS_hospice_organizations_CO.csv
 - CO_County_Alzheimers_Rates.txt
+- CO_County_Alzheimers_Rates.csv
   
 3) Run COMP4447Hospice/Code/NPI Info API.ipynb
 - pulls NPI Registry data to get provider counts and creates 'df_zip.pkl'

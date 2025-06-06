@@ -65,12 +65,12 @@ cd COMP4447Hospice
 - CMS_hospice_organizations_CO.csv
 - CO_County_Alzheimers_Rates.txt
   
-4) Run COMP4447Hospice/Code/NPI Info API 05252025.ipynb
-- pulls NPI Registry data to get provider counts and creates 'df.pkl'
+3) Run COMP4447Hospice/Code/NPI Info API.ipynb
+- pulls NPI Registry data to get provider counts and creates 'df_zip.pkl'
   
 4) Run COMP4447Hospice/Code/'mainCounty.ipynb'
 - pulls function from ACSDataImport.py
-- pulls data from 'df.pkl' (Hospice Provider Counts) and merges on ACS data
+- pulls data from 'df_zip.pkl' (Hospice Provider Counts) and merges on ACS data
 - creates 'mergedTableCounty.pkl'
 - creates 'merged65andOver.pkl'
 

@@ -56,25 +56,24 @@ Clone the repository:
 git clone https://github.com/erinbest017/COMP4447Hospice.git
 cd COMP4447Hospice
 ```
+Or Download all files from the COMP4447Hospice/Code/ Folder
 
-## Order of Operations
-
-1) Download all files from the COMP4447Hospice/Code/ Folder
+## Description of Python Scripts
   
-2) Run COMP4447Hospice/Code/NPI Info API.ipynb
+1) COMP4447Hospice/Code/NPI Info API.ipynb:
 - pulls NPI Registry data to get provider counts and creates 'df_zip.pkl'
   
-4) Run COMP4447Hospice/Code/mainCounty.ipynb
+2) COMP4447Hospice/Code/mainCounty.ipynb:
 - pulls function from ACSDataImport.py
 - pulls data from 'df_zip.pkl' (Hospice Provider Counts) and merges on ACS data
 - creates 'mergedTableCounty.pkl'
 - creates 'merged65andOver.pkl'
 
-5) Run COMP4447Hospice/Code/hospiceEDA and Mapping by County.ipynb
+3) COMP4447Hospice/Code/hospiceEDA and Mapping by County.ipynb
 - uses 'mergedTableCounty.pkl' to create EDA and Hospice Provider Dashboard
 - uses 'df_alzheimers.pkl' to merge to ACS data for visualization
 
-6) Run COMP4447Hospice/Code/hospiceMLCounty.ipynb
+4) COMP4447Hospice/Code/hospiceMLCounty.ipynb:
 - uses 'mergedTableCounty.pkl' for model development
 - uses 'merged65andOver.pkl' for Gaps in Hospice Care analysis
 

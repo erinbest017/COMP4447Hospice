@@ -58,7 +58,7 @@ cd COMP4447Hospice
 ```
 Or Download all files from the COMP4447Hospice/Code/ Folder
 
-## Description of Python Scripts
+## Description of Code (/Code)
   
 1) COMP4447Hospice/Code/NPI Info API.ipynb:
 - pulls NPI Registry data to get provider counts and creates 'df_zip.pkl'

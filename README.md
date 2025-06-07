@@ -17,10 +17,11 @@ Our goal is to visualize and better understand geographic gaps in end-of-life ca
 
 ## Data Sources (/Data)
 **American Community Survey (ACS)**
-- Source: U.S. Census Bureau  
+- [Source: U.S. Census Bureau  ](https://data.census.gov/)
 - Key features: Income, education, poverty level, age, and household composition
 
 **National Provider Identifier (NPI) Registry**
+- https://npiregistry.cms.hhs.gov/search
 - Public directory of active U.S. healthcare providers  
 - Filtered for active hospice providers in Colorado
 
